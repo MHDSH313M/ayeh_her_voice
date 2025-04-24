@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf5e6; /* رنگ ملایم پس‌زمینه */
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* راست‌چین کردن متن */
+}
+
+header {
+    background-color: #f4ecd8; /* پس‌زمینه هدر */
+    padding: 20px;
+    border-bottom: 2px solid #e4d9c7;
+    text-align: center;
+}
+
+h1 {
+    direction: rtl; /* جهت صحیح برای متن و اموجی */
+    text-align: center; /* تراز وسط */
+    color: #5c4033; /* رنگ متن */
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+.toggle-section {
+    margin: 20px;
+}
+
+.toggle-title {
+    background-color: #f4ecd8; /* رنگ پس‌زمینه عنوان‌ها */
+    color: #5c4033; /* رنگ متن عنوان‌ها */
+    font-size: 1.5em;
+    padding: 10px;
+    border: none;
+    text-align: left; /* چیدمان متن عنوان */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease; /* افکت تغییر رنگ هنگام هاور */
+}
+
+.toggle-title:hover {
+    background-color: #d6c8af; /* تغییر رنگ هنگام هاور */
+}
+
+.toggle-content {
+    display: none; /* مخفی کردن محتوا */
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fdf5e6; /* پس‌زمینه محتوا */
+    border: 1px solid #e4d9c7; /* حاشیه محتوا */
+    border-radius: 5px; /* گرد کردن گوشه‌ها */
+    color: #5c4033; /* رنگ متن محتوا */
+    font-size: 1.2em;
+}
+
+a {
+    color: #3e2c22; /* رنگ لینک‌ها */
+    text-decoration: none; /* حذف زیرخط لینک */
+}
+
+a:hover {
+    text-decoration: underline; /* خط زیر لینک هنگام هاور */
+}
